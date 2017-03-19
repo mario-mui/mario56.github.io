@@ -4,12 +4,13 @@
 @import "jekyll-theme-minimal";
 
 .bloglist {
+  padding:  0px;
   list-style: none;
 }
 
 .bloglist > li {
-  border-right: #111 2px solid;
-  padding: 20px 0;
+  border-left: #111 2px solid;
+  padding: 20px 0px 20px 40px
 }
 
 .arrow_box {
@@ -24,10 +25,10 @@
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 0px 0 20px 22px;
-  border-color: transparent transparent transparent #111;
+  border-width: 0px 29px 22px 0px;
+  border-color: transparent #111 transparent transparent;
   position: absolute;
-  left: 430px;
+  left: -30px;
   top: 5px;
 }
 .ci {
@@ -35,7 +36,7 @@
   height: 10px;
   border-radius: 50%;
   position: absolute;
-  left: 452px;
+  left: -48px;
   top: 0px;
   background: #000;
   border: 2px solid #333;
