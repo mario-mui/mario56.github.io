@@ -1,11 +1,9 @@
 @import "fonts";
-@import "rouge-github";
 
 body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
   font-weight:400;
 }
 
@@ -68,15 +66,15 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color:limegreen;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #222;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #222;
   overflow-x: auto;
 }
 
@@ -171,6 +169,7 @@ header ul a strong {
 }
 
 section {
+  padding-top: 100px;
   width:500px;
   float:right;
   padding-bottom:50px;

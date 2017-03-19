@@ -2,3 +2,53 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.bloglist {
+  list-style: none;
+}
+
+.bloglist > li {
+  border-right: #111 2px solid;
+  padding: 20px 0;
+}
+
+.arrow_box {
+  background: #222;
+  box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
+  width: 430px;
+  color: #b9b9b9;
+  border-radius: 6px;
+  position: relative;
+}
+.ti {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 0 20px 22px;
+  border-color: transparent transparent transparent #111;
+  position: absolute;
+  left: 430px;
+  top: 5px;
+}
+.ci {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 452px;
+  top: 0px;
+  background: #000;
+  border: 2px solid #333;
+}
+
+.arrow_box h2.title{
+  margin: 0px;
+  padding: 10px 0 0 20px;
+  font: 16px/50px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+.arrow_box .foot {
+  text-align: right;
+  background: rgba(1,1,1,0.3);
+  padding-right: 10px;
+}

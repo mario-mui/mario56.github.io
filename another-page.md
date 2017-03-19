@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 
 ## Welcome to another page
