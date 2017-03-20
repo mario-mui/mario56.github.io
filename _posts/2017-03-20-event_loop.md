@@ -1,9 +1,8 @@
 ---
 layout: blog
-title: [译]The Node.js Event Loop, Timers, and process.nextTick()
+title: "[译]The Node.js Event Loop, Timers, and process.nextTick()"
 type: Node
 time: 2017-03-20
-url: ''
 
 ---
 
